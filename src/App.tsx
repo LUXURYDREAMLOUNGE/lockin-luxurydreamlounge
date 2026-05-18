@@ -410,7 +410,7 @@ export default function App() {
                   letterSpacing: "0.02em",
                 }}
               >
-                D&#201;
+                D{'\u00C9'}
               </h1>
               <p style={{
                 fontFamily: "'Cormorant Garamond', Georgia, serif",
