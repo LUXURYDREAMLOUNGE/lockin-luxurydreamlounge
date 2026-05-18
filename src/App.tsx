@@ -113,27 +113,15 @@ function IconPlay({ className = "w-4 h-4" }: { className?: string }) {
 function LDLMonogram({ className = "", small = false }: { className?: string; small?: boolean }) {
   return (
     <div className={`flex flex-col items-center ${className}`}>
-      <div style={{
-        fontFamily: "'Cormorant Garamond', Georgia, serif",
-        fontSize: small ? "28px" : "42px",
-        fontWeight: 600,
-        letterSpacing: "0.35em",
-        lineHeight: 1,
-        color: "#B8A48A",
-      }}>
-        LDL
-      </div>
-      <div style={{
-        fontFamily: "'Cormorant Garamond', Georgia, serif",
-        fontSize: small ? "7px" : "9px",
-        fontWeight: 400,
-        letterSpacing: "0.4em",
-        textTransform: "uppercase",
-        color: "rgba(184,164,138,0.6)",
-        marginTop: small ? "4px" : "6px",
-      }}>
-        Luxury Dream Lounge
-      </div>
+      <img
+        src="/ldl-logo-white.png"
+        alt="Luxury Dream Lounge"
+        style={{
+          width: small ? "100px" : "160px",
+          height: "auto",
+          opacity: 0.85,
+        }}
+      />
     </div>
   );
 }
