@@ -117,9 +117,10 @@ function LDLMonogram({ className = "", small = false }: { className?: string; sm
         src="/ldl-logo-white.png"
         alt="Luxury Dream Lounge"
         style={{
-          width: small ? "100px" : "160px",
+          width: small ? "140px" : "240px",
           height: "auto",
-          opacity: 0.85,
+          opacity: 0.92,
+          filter: "brightness(1.1)",
         }}
       />
     </div>
