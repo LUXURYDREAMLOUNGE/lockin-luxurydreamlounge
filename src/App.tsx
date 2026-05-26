@@ -288,7 +288,9 @@ const HOW_WE_MET_OPTIONS = [
   { value: "social", label: "Social Media" },
   { value: "online", label: "Online" },
   { value: "referral", label: "Referral" },
-  { value: "other", label: "Other" },
+  { value: "inperson", label: "New Connection / Just Met" },
+  { value: "acquaintance", label: "Reconnecting" },
+  { value: "mynetwork", label: "Already Connected" },
 ];
 
 const SOCIAL_PLATFORMS = [
@@ -448,7 +450,8 @@ export default function App() {
             <div className="animate-fade-up delay-500 space-y-0 mb-10">
               {[
                 { icon: <IconMail />, label: "Elevate@LuxuryDreamLounge.com", href: "mailto:Elevate@LuxuryDreamLounge.com" },
-                { icon: <IconPhone />, label: "+1 (502) 208-6240", href: "tel:+15022086240" },
+                { icon: <IconPhone />, label: "Office: +1 (502) 276-8098", href: "tel:+15022768098" },
+                { icon: <IconPhone />, label: "Mobile: +1 (502) 208-6240", href: "tel:+15022086240" },
                 { icon: <IconPin />, label: "Louisville, KY" },
                 { icon: <IconGlobe />, label: "luxurydreamlounge.com", href: "https://luxurydreamlounge.com" },
               ].map((item) => {
