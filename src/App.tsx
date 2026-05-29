@@ -522,6 +522,111 @@ export default function App() {
               </button>
             </div>
 
+            {/* ─── Explore Section ─── */}
+            <div className="animate-fade-up delay-1100" style={{ marginTop: "48px" }}>
+              <div className="gold-divider mb-8" />
+              <div className="flex flex-col items-center gap-3" style={{ maxWidth: "320px", margin: "0 auto" }}>
+                {/* Dream Builders Network */}
+                <a
+                  href="https://privatelounge.luxurydreamlounge.com/communities/groups/dreambuildersnetwork/home?invite=6a17630b413dd879a84a99d3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full text-center py-3 px-4 rounded-lg transition-all"
+                  style={{
+                    background: "rgba(184,164,138,0.06)",
+                    border: "1px solid rgba(184,164,138,0.15)",
+                    textDecoration: "none",
+                    display: "block",
+                  }}
+                  onMouseEnter={(e) => { e.currentTarget.style.borderColor = "rgba(184,164,138,0.35)"; e.currentTarget.style.background = "rgba(184,164,138,0.1)"; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.borderColor = "rgba(184,164,138,0.15)"; e.currentTarget.style.background = "rgba(184,164,138,0.06)"; }}
+                >
+                  <span style={{
+                    fontFamily: "'Cormorant Garamond', Georgia, serif",
+                    fontSize: "14px", fontWeight: 600, letterSpacing: "0.08em",
+                    textTransform: "uppercase", color: "#B8A48A",
+                    display: "block",
+                  }}>
+                    Dream Builders Network
+                  </span>
+                  <span style={{
+                    fontFamily: "'Inter', sans-serif",
+                    fontSize: "11px", fontWeight: 300, letterSpacing: "0.04em",
+                    color: "rgba(245,240,234,0.4)",
+                    display: "block", marginTop: "4px",
+                  }}>
+                    For Visionaries In Motion &mdash; Free Community
+                  </span>
+                </a>
+
+                {/* Private Entrance + Partnership row */}
+                <div className="w-full grid grid-cols-2 gap-3">
+                  <a
+                    href="https://book.luxurydreamlounge.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-center py-3 px-3 rounded-lg transition-all"
+                    style={{
+                      border: "1px solid rgba(184,164,138,0.1)",
+                      background: "transparent",
+                      textDecoration: "none",
+                      display: "block",
+                    }}
+                    onMouseEnter={(e) => { e.currentTarget.style.borderColor = "rgba(184,164,138,0.3)"; e.currentTarget.style.background = "rgba(184,164,138,0.05)"; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.borderColor = "rgba(184,164,138,0.1)"; e.currentTarget.style.background = "transparent"; }}
+                  >
+                    <span style={{
+                      fontFamily: "'Cormorant Garamond', Georgia, serif",
+                      fontSize: "13px", fontWeight: 500, letterSpacing: "0.06em",
+                      textTransform: "uppercase", color: "rgba(184,164,138,0.65)",
+                      display: "block",
+                    }}>
+                      Private Entrance
+                    </span>
+                    <span style={{
+                      fontFamily: "'Inter', sans-serif",
+                      fontSize: "10px", fontWeight: 300,
+                      color: "rgba(245,240,234,0.3)",
+                      display: "block", marginTop: "3px",
+                    }}>
+                      Book a Session
+                    </span>
+                  </a>
+                  <a
+                    href="https://book.luxurydreamlounge.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-center py-3 px-3 rounded-lg transition-all"
+                    style={{
+                      border: "1px solid rgba(184,164,138,0.1)",
+                      background: "transparent",
+                      textDecoration: "none",
+                      display: "block",
+                    }}
+                    onMouseEnter={(e) => { e.currentTarget.style.borderColor = "rgba(184,164,138,0.3)"; e.currentTarget.style.background = "rgba(184,164,138,0.05)"; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.borderColor = "rgba(184,164,138,0.1)"; e.currentTarget.style.background = "transparent"; }}
+                  >
+                    <span style={{
+                      fontFamily: "'Cormorant Garamond', Georgia, serif",
+                      fontSize: "13px", fontWeight: 500, letterSpacing: "0.06em",
+                      textTransform: "uppercase", color: "rgba(184,164,138,0.65)",
+                      display: "block",
+                    }}>
+                      Partnership
+                    </span>
+                    <span style={{
+                      fontFamily: "'Inter', sans-serif",
+                      fontSize: "10px", fontWeight: 300,
+                      color: "rgba(245,240,234,0.3)",
+                      display: "block", marginTop: "3px",
+                    }}>
+                      Let{'\u2019'}s Collaborate
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
             {/* Footer */}
             <div className="animate-fade-in delay-1200 text-center mt-16">
               <p style={{
