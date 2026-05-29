@@ -562,7 +562,7 @@ export default function App() {
                 {/* Private Entrance + Partnership row */}
                 <div className="w-full grid grid-cols-2 gap-3">
                   <a
-                    href="https://book.luxurydreamlounge.com"
+                    href="https://book.luxurydreamlounge.com?meeting=privateentrance"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-center py-3 px-3 rounded-lg transition-all"
@@ -589,11 +589,11 @@ export default function App() {
                       color: "rgba(245,240,234,0.3)",
                       display: "block", marginTop: "3px",
                     }}>
-                      Book a Session
+                      Pressure To Precision{'\u2122'}
                     </span>
                   </a>
                   <a
-                    href="https://book.luxurydreamlounge.com"
+                    href="https://book.luxurydreamlounge.com?meeting=partnership"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-center py-3 px-3 rounded-lg transition-all"
