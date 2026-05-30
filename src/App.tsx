@@ -528,7 +528,7 @@ export default function App() {
               <div className="flex flex-col items-center gap-3" style={{ maxWidth: "320px", margin: "0 auto" }}>
                 {/* Dream Builders Network */}
                 <a
-                  href="https://privatelounge.luxurydreamlounge.com/communities/groups/dreambuildersnetwork/home?invite=6a1a398c56526f540e83ca59"
+                  href="https://privatelounge.luxurydreamlounge.com/communities/groups/dreambuildersnetwork/home?invite=6a17630b413dd879a84a99d3"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full text-center py-3 px-4 rounded-lg transition-all"
