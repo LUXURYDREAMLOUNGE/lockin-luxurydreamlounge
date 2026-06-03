@@ -301,7 +301,6 @@ const SOCIAL_PLATFORMS = [
   { value: "facebook", label: "Facebook" },
   { value: "youtube", label: "YouTube" },
   { value: "twitter", label: "X (Twitter)" },
-  { value: "other", label: "Other" },
 ];
 
 export default function App() {
@@ -719,15 +718,16 @@ export default function App() {
               </div>
 
               {/* How did we connect? */}
-              <FormField label="How did we connect?">
+              <FormField label="How did we connect?" required>
                 <select
                   name="howWeMet"
                   className="lockin-select"
                   value={howWeMet}
+                  required
                   onChange={(e) => { setHowWeMet(e.target.value); setSocialPlatform(""); }}
                 >
                   {HOW_WE_MET_OPTIONS.map((opt) => (
-                    <option key={opt.value} value={opt.value}>
+                    <option key={opt.value} value={opt.value} disabled={opt.value === ""}>
                       {opt.label}{opt.value === "event" && eventInfo ? ` — ${eventInfo}` : ""}
                     </option>
                   ))}
